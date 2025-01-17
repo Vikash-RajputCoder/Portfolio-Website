@@ -1,4 +1,4 @@
-// Initialize EmailJS
+// Initialize EmailJS with your user ID
 emailjs.init("YOUR_USER_ID"); // Replace with your EmailJS User ID
 
 // Form Submission Logic
