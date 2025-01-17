@@ -24,7 +24,7 @@
 
                 I have worked on projects like the Airlines Management System and Employee Recruitment Management System. Additionally, I am skilled in programming languages like Java, Python, C, HTML, CSS, and JavaScript.
                 
-                I am passionate about learning new technologies and solving real-world problems with my skills</p>
+                I am passionate about learning new technologies and solving real-world problems with my skills.</p>
         </section>
 
         <section id="projects" class="section projects">
@@ -46,11 +46,13 @@
             <p>Email: rajputvikash2006@gmail.com</p>
             <p>Phone: 9068944907</p>
             <form id="contact-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
                 <button type="submit" class="btn">Send</button>
             </form>
+            <div class="success" style="display: none;">Message sent successfully!</div>
+            <div class="error" style="display: none;">Failed to send the message. Please try again.</div>
         </section>
     </main>
 
@@ -58,6 +60,8 @@
         <p>&copy; 2025 Vikash Rajput. All rights reserved.</p>
     </footer>
 
+    <!-- EmailJS Script -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
